@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music shrine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="divas.css">
+</head>
+<body>
+
+  <div id="confete-container"></div>
+
+ 
+  <nav>
+    <a href="index.html" class="nav-back">← voltar</a>
+    <span class="nav-titulo">divas e divos </span>
+    <div class="nav-dots">
+      <button class="nav-dot" style="background:#F9A8D4" data-target="taylor"  onclick="document.getElementById('taylor').scrollIntoView({behavior:'smooth'})"  title="Taylor Swift" ></button>
+      <button class="nav-dot" style="background:#FCA5A5" data-target="sabrina" onclick="document.getElementById('sabrina').scrollIntoView({behavior:'smooth'})" title="Sabrina Carpenter"></button>
+      <button class="nav-dot" style="background:#A5B4FC" data-target="harry"   onclick="document.getElementById('harry').scrollIntoView({behavior:'smooth'})"   title="Harry Styles"></button>
+      <button class="nav-dot" style="background:#6EE7B7" data-target="lagum"   onclick="document.getElementById('lagum').scrollIntoView({behavior:'smooth'})"   title="Lagum"></button>
+    </div>
+  </nav>
+
+
+  <section id="hero-divas" data-section="hero">
+    <p class="hero-eyebrow">eu sei é ridiculo</p>
+    <h1 class="hero-titulo">
+      O <span class="grad-rosa">Shrine Oficial</span><br>
+    </h1>
+    <p class="hero-subtitulo">
+      Uma homenagem aos artistas que moldaram seu gosto musical — e Talvez um pouco da sua personalidade.
+    </p>
+    <div class="hero-artistas-pills">
+      <a class="pill pill-taylor"  href="#taylor">Taylor Swift</a>
+      <a class="pill pill-sabrina" href="#sabrina">Sabrina Carpenter</a>
+      <a class="pill pill-harry"   href="#harry">Harry Styles</a>
+      <a class="pill pill-lagum"   href="#lagum">Lagum</a>
+    </div>
+  </section>
+
+  <div class="divisor"></div>
+
+ 
+  <section class="artista-section s-taylor" id="taylor" data-section="taylor">
+  <div class="artista-visual">
+  <div class="artista-visual-bg"></div>
+  <img src="taylor.jpg" alt="Taylor Swift" class="artista-img">
+</div>
+    <div class="artista-content">
+      <p class="artista-numero fade-in-up">01 / 04</p>
+      <h2 class="artista-nome fade-in-up">Taylor Swift</h2>
+      <p class="artista-genero fade-in-up">Pop · Country · Indie Folk · Synth-Pop</p>
+
+      <p class="artista-desc fade-in-up">
+        A mulher que transformou cada ex em álbum de ouro, cada Easter egg em profissão e cada era em uma identidade visual nova. 
+        Dezenove eras depois, ela ainda faz a internet entrar em colapso com uma simples mudança de foto de perfil.
+      </p>
+
+      <div class="artista-quote fade-in-up">
+        <p>"It's me, hi, I'm the problem, it's me."</p>
+        <small>Anti-Hero · Midnights, 2022</small>
+      </div>
+
+      <div class="artista-hits fade-in-up">
+        <p class="artista-hits-titulo">eras / álbuns</p>
+        <div class="hits-lista">
+          <span class="hit-tag">Taylor Swift</span>
+          <span class="hit-tag">Fearless</span>
+          <span class="hit-tag">Speak Now</span>
+          <span class="hit-tag">Red</span>
+          <span class="hit-tag">1989</span>
+          <span class="hit-tag">Reputation</span>
+          <span class="hit-tag">Lover</span>
+          <span class="hit-tag">Folklore</span>
+          <span class="hit-tag">Evermore</span>
+          <span class="hit-tag">Midnights</span>
+          <span class="hit-tag">TTPD</span>
+        </div>
+      </div>
+
+      <div class="artista-funfact fade-in-up">
+        <strong>fun fact</strong>
+        Taylor re-gravou 6 álbuns inteiros só pra recuperar os direitos das músicas. Rainha da paciência e da vingança planejada.
+        vc poderia adotar esse lema, se você pensar bem.
+      </div>
+    </div>
+  </section>
+
+  <div class="divisor"></div>
+
+ 
+  <section class="artista-section s-sabrina" id="sabrina" data-section="sabrina">
+   <div class="artista-visual">
+  <div class="artista-visual-bg"></div>
+  <img src="sabrina.jpg" alt="Sabrina Carpenter" class="artista-img">
+</div>
+    <div class="artista-content">
+      <p class="artista-numero fade-in-up">02 / 04</p>
+      <h2 class="artista-nome fade-in-up">Sabrina Carpenter</h2>
+      <p class="artista-genero fade-in-up">Pop · Retro · Bubblegum</p>
+
+      <p class="artista-desc fade-in-up">
+        Curta, loira, e com mais carisma no dedo mindinho do que a maioria dos artistas inteiros. 
+        Saiu do Disney Channel decidida a provar algo, jogou o Espresso na cara do mundo e a internet não se recuperou mais.
+      </p>
+
+      <div class="artista-quote fade-in-up">
+        <p>"Please, please, please don't prove I'm right."</p>
+        <small>Please Please Please · Short n' Sweet, 2024</small>
+      </div>
+
+      <div class="artista-hits fade-in-up">
+        <p class="artista-hits-titulo">hits que você canta no chuveiro</p>
+        <div class="hits-lista">
+          <span class="hit-tag">Espresso</span>
+          <span class="hit-tag">Please Please Please</span>
+          <span class="hit-tag">Taste</span>
+          <span class="hit-tag">Feather</span>
+          <span class="hit-tag">Nonsense</span>
+          <span class="hit-tag">Skin</span>
+          <span class="hit-tag">Because I Liked a Boy</span>
+          <span class="hit-tag">Bed Chem</span>
+        </div>
+      </div>
+
+      <div class="artista-funfact fade-in-up">
+        <strong>fun fact</strong>
+        "Espresso" ficou 7 semanas no #1 do Hot 100 sem nunca ter sido promovida como single oficial. 
+        Só postou no TikTok e a internet decidiu sozinha. Poder absurdo.
+      </div>
+    </div>
+  </section>
+
+  <div class="divisor"></div>
+
+
+  <section class="artista-section s-harry" id="harry" data-section="harry">
+    <div class="artista-visual">
+  <div class="artista-visual-bg"></div>
+  <img src="harry.jpg" alt="Harry Styles" class="artista-img">
+</div>
+    <div class="artista-content">
+      <p class="artista-numero fade-in-up">03 / 04</p>
+      <h2 class="artista-nome fade-in-up">Harry Styles</h2>
+      <p class="artista-genero fade-in-up">Pop · Rock · Soft Rock · Glam</p>
+
+      <p class="artista-desc fade-in-up">
+        Saiu do One Direction, trocou o uniforme por ternos floridos e boa-joia, lançou três álbuns solos aclamados e fez
+        milhões de pessoas repensarem o próprio gosto musical. O cara que faz tudo na própria velocidade — e funciona.
+      </p>
+
+      <div class="artista-quote fade-in-up">
+        <p>"We don't talk about it, it's something we don't do."</p>
+        <small>Watermelon Sugar · Fine Line, 2019</small>
+      </div>
+
+      <div class="artista-hits fade-in-up">
+        <p class="artista-hits-titulo">discografia solo</p>
+        <div class="hits-lista">
+          <span class="hit-tag">Harry Styles</span>
+          <span class="hit-tag">Fine Line</span>
+          <span class="hit-tag">Harry's House</span>
+          <span class="hit-tag">Watermelon Sugar</span>
+          <span class="hit-tag">Adore You</span>
+          <span class="hit-tag">Lights Up</span>
+          <span class="hit-tag">As It Was</span>
+          <span class="hit-tag">Music for a Sushi Restaurant</span>
+        </div>
+      </div>
+
+      <div class="artista-funfact fade-in-up">
+        <strong>fun fact</strong>
+        Harry passou mais de 600 dias em turnê com o Love On Tour entre 2021 e 2023. 
+        Em quase cada show ele usava uma roupa diferente.
+      </div>
+    </div>
+  </section>
+
+  <div class="divisor"></div>
+
+ 
+  <section class="artista-section s-lagum" id="lagum" data-section="lagum">
+   <div class="artista-visual">
+  <div class="artista-visual-bg"></div>
+  <img src="lagum.jpg" alt="Lagum" class="artista-img">
+</div>
+    <div class="artista-content">
+      <p class="artista-numero fade-in-up">04 / 04</p>
+      <h2 class="artista-nome fade-in-up">Lagum</h2>
+      <p class="artista-genero fade-in-up">Pop Indie · Indie Rock Brasileiro</p>
+
+      <p class="artista-desc fade-in-up">
+        A banda mineira que prova que o pop brasileiro tem identidade própria — e não precisa imitar ninguém de fora pra ser excelente. 
+        Aquela música que você coloca no fone no metrô e o mundo fica instantaneamente melhor.
+      </p>
+
+      <div class="artista-quote fade-in-up">
+        <p>"Eu te amo do jeito que eu sei, do jeito que eu posso."</p>
+        <small>Do Jeito Que Eu Sei · Lagum, 2020</small>
+      </div>
+
+      <div class="artista-hits fade-in-up">
+        <p class="artista-hits-titulo">músicas pra colocar no fone</p>
+        <div class="hits-lista">
+          <span class="hit-tag">Do Jeito Que Eu Sei</span>
+          <span class="hit-tag">Moça</span>
+          <span class="hit-tag">Tempo</span>
+          <span class="hit-tag">Caminho</span>
+          <span class="hit-tag">Infinito</span>
+          <span class="hit-tag">Viver</span>
+          <span class="hit-tag">Só Você</span>
+          <span class="hit-tag">Clichê</span>
+        </div>
+      </div>
+
+      <div class="artista-funfact fade-in-up">
+        <strong>fun fact</strong>
+        O nome "Lagum" não tem significado definido — a banda quis algo que soasse diferente, que não existisse antes.
+        Funcionou: hoje o nome define um som inteiro. Tem gente que nem sabe que é brasileira até buscar.
+      </div>
+    </div>
+  </section>
+
+  <div class="divisor"></div>
+
+
+  <section id="ranking">
+    <h2 class="ranking-titulo fade-in-up">
+       ranking <em> Totalmente Oficial</em><br> Dessa turminha ai
+    </h2>
+    <p class="ranking-sub fade-in-up">Minha Opnião</p>
+
+      <div class="ranking-item fade-in-up" style="border-color: rgba(252,165,165,0.25);">
+        <span class="ranking-pos">1</span>
+        <div class="ranking-info">
+          <p class="ranking-artista" style="color:#FCA5A5">Sabrina Carpenter</p>
+          <p class="ranking-motivo">É A MAIORAL NÃO TEM JEITO</p>
+        </div>
+        <span class="ranking-emoji">☕</span>
+      </div>
+
+    <div class="ranking-lista">
+      <div class="ranking-item fade-in-up" style="border-color: rgba(249,168,212,0.25);">
+        <span class="ranking-pos">2</span>
+        <div class="ranking-info">
+          <p class="ranking-artista" style="color:#F9A8D4">Taylor Swift</p>
+          <p class="ranking-motivo">Eu sei que vc gosta muito dela</p>
+        </div>
+        <span class="ranking-emoji">🐏</span>
+      </div>
+
+    
+
+      <div class="ranking-item fade-in-up" style="border-color: rgba(110,231,183,0.25);">
+        <span class="ranking-pos">3</span>
+        <div class="ranking-info">
+          <p class="ranking-artista" style="color:#6EE7B7">Lagum</p>
+          <p class="ranking-motivo">Não Conhecia essa Banda mais como é brasileira não pode ficar em Ultimo </p>
+        </div>
+        <span class="ranking-emoji">🎸</span>
+      </div>
+
+      <div class="ranking-item fade-in-up" style="border-color: rgba(165,180,252,0.25);">
+        <span class="ranking-pos">4</span>
+        <div class="ranking-info">
+          <p class="ranking-artista" style="color:#A5B4FC">Harry Styles</p>
+          <p class="ranking-motivo">Eu sei que vc é apaixonada nele, mas infelizmente esse cara vai se apresentar no Morumbi oq vai acabar com o Gramado </p>
+        </div>
+        <span class="ranking-emoji">🌹</span>
+      </div>
+    </div>
+  </section>
+
+   <footer>
+    Criado e Idealizado por <span>RGS</span> · feliz 19 anos, DUDA
+  </footer>
+
+  <script src="divas.js"></script>
+</body>
+</html>
